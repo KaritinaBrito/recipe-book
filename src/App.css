@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  --background: #de7c04;
+  --polar: #F8F8FF;
+  --white: #EEEDED;
+  --gray1: #c4c4c4;
+  --gray2: #a6a6a6;
+  --gray3: #888888;
+  --black: #151515;
+  
+}

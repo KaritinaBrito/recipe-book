@@ -1,0 +1,105 @@
+
+.navbar{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    height: 60px;
+    position: relative;
+    z-index: 999;
+    transition: transition;
+    background: var(--background);
+    display: flex;
+    align-items: center;
+}
+.scrolled{
+    position: fixed;
+    width: 100%;
+}
+.navbar-container{
+    width: 100%;
+    padding: 10px 25px;
+}
+.navbar-content{
+    color: var(--white);
+}
+.brand-and-toggler{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-brand{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 600;
+    gap: 15px;
+    color: var(--white);
+    text-decoration: none;
+}
+.navbar-btns{
+    display: flex;
+    align-items: center;
+}
+.navbar-show-btn{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: var(--white);
+    font-size: 30px;
+}
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 500px;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7));
+    background-image:  url('../../assets/header_image.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-content h1{
+    color: var(--white);
+    font-size: 42px;
+}
+.header-content p{
+    text-transform: uppercase;
+    color: var(--white);
+    margin-top: 50px;
+    font-size: 36px;
+}
+.search-form{
+    display: flex;
+    align-items: center;
+
+}
+.form-control-input{
+    color: var(--gray3);
+    font-size: 14px;
+    box-shadow: 0 4px 10px rgb(0 0 0 / 12%), 0 0 1px rgb(0 0 0 / 5%) inset;
+    min-width: 300px;
+    height: 55px;
+    padding: 0px 30px;
+    margin-right: 14px;
+    border-radius: 40px; 
+    outline: none;
+    border: none;
+}
+.form-submit-btn{
+    width: 55px;
+    height: 55px;
+    background: var(--background);
+    border-radius: 50%;
+    position: relative;
+    transition: 0.5s;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    color: var(--white);
+    cursor: pointer;
+}
+.form-submit-btn:hover{
+    transform: scale(1.1);
+    color: var(--background);
+    background: var(--white);
+}
